@@ -75,7 +75,7 @@ views:
 The auto layout works in the same way as the default lovelace layout.
 
 It follows a simple process.
-- A number of columns are prepared based on the screen width and `<column_widt>`.
+- A number of columns are prepared based on the screen width and `<column_width>`.
 - If the sidebar is opened, the number of columns is decreased by 1. (**This is not done by layout-card unless `<sidebar_column>` is true.**)
 - The number of columns is clamped between `<min_columns>`  and `<max_columns>`
 - Cards have a `cardHeight`, which is calculated from their content. One unit is roughly 50 pixels tall.
